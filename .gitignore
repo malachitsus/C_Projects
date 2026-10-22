@@ -4,3 +4,54 @@
 # Игнорировать объектные файлы компиляции
 *.o
 *.obj
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Скомпилированные объектные файлы и библиотеки
+*.o
+*.obj
+*.a
+*.lib
+*.lo
+*.la
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+*.hex
+
+# Отладочные символы
+*.pdb
+*.ilk
+*.dSYM/
+*.sym
+
+# Артефакты сборки
+build/
+dist/
+out/
+target/          # Rust / Maven
+cmake-build-*/
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile           # если генерируется (осторожно — только если не хранишь вручную)
